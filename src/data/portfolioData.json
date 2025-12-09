@@ -1,0 +1,44 @@
+{
+  "name": "Muhammad Iksan",
+  "location": "Yogyakarta, Indonesia",
+  "introduction": "Hello! I'm Muhammad Iksan, a Backend Developer based in Yogyakarta, Indonesia. Working on projects like web development and cloud computing. I love exploring new technologies and improving my skills in backend development and cloud computing.",
+  "title": ["Backend Developer", "Cloud Enthusiast"],
+  "education": {
+    "school": "Digital Technology University of Indonesia",
+    "major": "Informatics",
+    "gpa": 3.73,
+    "achievements": ["Backend Mentor at Study Club:UKM IK", "Head of UKM Taekwondo UTDI 2024/2025"]
+  },
+  "skills": {
+    "programming_language": ["JavaScript", "TypeScript", "PHP"],
+    "backend": ["Node.js", "Express.js", "Laravel"],
+    "cloud": ["AWS", "Heroku", "Vercel"],
+    "database": ["MySQL", "MongoDB", "Redis"]
+  },
+  "projects": [
+    {
+      "name": "Parking System API",
+      "description": "Developed a RESTful API for managing parking systems with user authentication and real-time monitoring features.",
+      "repo_url": "https://github.com/mdiksann/parking-system.git",
+      "tech_stack": ["Node.js", "Express.js", "MongoDB"]
+    },
+    {
+      "name": "BookCycle",
+      "description": "A book exchange platform that allows users to trade books with each other, featuring user profiles and a rating system.",
+      "repo_url": "https://github.com/mdiksann/bookcycle",
+      "tech_stack": ["Node.js", "Express.js", "MongoDB", "React"]
+    },
+    {
+      "name": "Todo List App",
+      "description": "A todo list application with user authentication and task management features.",
+      "repo_url": "https://github.com/mdiksann/todo-list-app",
+      "tech_stack": ["PHP", "Laravel", "MySQL", "React"]
+    }
+  ],
+  "social": {
+    "github": "https://github.com/mdiksann",
+    "linkedin": "https://www.linkedin.com/in/mdiksann/",
+    "instagram": "https://instagram.com/m_iksnnn"
+  },
+  "last_updated_at": null
+}
