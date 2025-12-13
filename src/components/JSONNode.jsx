@@ -12,7 +12,7 @@ const JSONNode = ({ data, path = "", depth = 0 }) => {
       <div className="ml-2 sm:ml-4">
         <div className="flex items-center cursor-pointer hover:bg-gray-800/50 px-1 py-1 rounded" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <ChevronDown className="text-gray-400 w-4 h-4 flex-shrink-0" /> : <ChevronRight className="text-gray-400 w-4 h-4 flex-shrink-0" />}
-          <span className="text-blue-400 font-medium ml-1 break-words">{path.split(".").pop() || "about me"}</span>
+          <span className="text-blue-400 font-medium ml-1 break-words">{path.split(".").pop() || "root"}</span>
           <span className="text-gray-500 ml-1 text-sm flex-shrink-0">{Array.isArray(data) ? `[${data.length}]` : "{...}"}</span>
         </div>
 
