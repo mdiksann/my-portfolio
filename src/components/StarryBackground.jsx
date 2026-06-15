@@ -45,7 +45,7 @@ const StarryBackground = () => {
         // Draw star
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
+        ctx.fillStyle = `rgba(122, 162, 247, ${star.opacity})`;
         ctx.fill();
       });
 
@@ -67,7 +67,7 @@ const StarryBackground = () => {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-10" style={{ background: "linear-gradient(to bottom, #030712, #0c0a1f)" }} />;
+  return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-10" style={{ background: "linear-gradient(to bottom, #0a0e14, #0d1320)" }} />;
 };
 
 export default StarryBackground;
