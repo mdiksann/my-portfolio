@@ -1,21 +1,27 @@
 {
   "name": "Muhammad Iksan",
   "location": "Yogyakarta, Indonesia",
-  "about": "Hello! I'm Muhammad Iksan, a Backend Developer based in Yogyakarta, Indonesia. Working on projects like web development and cloud computing. I love exploring new technologies and improving my skills in backend development and cloud computing.",
-  "title": ["Backend Developer", "Cloud Enthusiast"],
+  "about": "I am a backend developer with experience in web development. I am passionate about building scalable and maintainable software systems. I am a quick learner and enjoy working in a team environment.",
+  "title": ["Backend Developer", "Web Developer"],
   "education": {
     "school": "Digital Technology University of Indonesia",
     "major": "Informatics",
-    "gpa": 3.73,
-    "achievements": ["Backend Mentor at Study Club:UKM IK", "Head of UKM Taekwondo UTDI 2024/2025"]
+    "gpa": 3.81,
+    "achievements": ["Runner up in Boring AI Hackathon by Codemod"]
   },
   "skills": {
-    "programming_language": ["JavaScript", "TypeScript", "PHP"],
-    "backend": ["Node.js", "Express.js", "Laravel"],
-    "cloud": ["AWS", "Heroku", "Vercel"],
-    "database": ["MySQL", "MongoDB", "Redis"]
+    "programming_languages": ["JavaScript", "TypeScript", "Python", "PHP"],
+    "frameworks_and_libraries": ["Next.js", "React", "Express.js", "Laravel", "FastAPI"],
+    "tools": ["git", "github", "docker", "aws", "postman"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"]
   },
   "projects": [
+    {
+      "name": "BookCycle",
+      "description": "A book exchange platform that allows users to trade books with each other, featuring user profiles and a rating system.",
+      "repo_url": "https://github.com/mdiksann/bookcycle",
+      "tech_stack": ["Next.js", "TypeScript", "PostgreSQL"]
+    },
     {
       "name": "Parking System API",
       "description": "Developed a RESTful API for managing parking systems with user authentication and real-time monitoring features.",
@@ -23,16 +29,10 @@
       "tech_stack": ["Node.js", "Express.js", "MongoDB"]
     },
     {
-      "name": "BookCycle",
-      "description": "A book exchange platform that allows users to trade books with each other, featuring user profiles and a rating system.",
-      "repo_url": "https://github.com/mdiksann/bookcycle",
-      "tech_stack": ["Node.js", "Express.js", "MongoDB", "React"]
-    },
-    {
-      "name": "Todo List App",
-      "description": "A todo list application with user authentication and task management features.",
-      "repo_url": "https://github.com/mdiksann/todo-list-app",
-      "tech_stack": ["PHP", "Laravel", "MySQL", "React"]
+      "name": "Village Health Clinic (Polindes) Information System",
+      "description": "Information System for village health clinic (Polindes) that helps in managing patient data, medical records, and other related information.",
+      "repo_url": "https://polindes.smartservice.co.id/ ",
+      "tech_stack": ["Laravel", "Blade", "MySQL"]
     }
   ],
   "social": {
