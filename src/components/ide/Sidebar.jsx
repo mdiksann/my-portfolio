@@ -5,7 +5,7 @@ import { FILES } from "./fileTree";
 // The Explorer panel: a collapsible "PORTFOLIO-IKSAN" folder listing the files.
 const Sidebar = ({ activeFile, onSelect }) => {
   return (
-    <aside className="w-56 sm:w-60 flex-shrink-0 bg-tn-elevated/70 border-r border-tn-border flex flex-col font-mono select-none">
+    <aside className="w-56 sm:w-60 flex-shrink-0 bg-tn-elevated md:bg-tn-elevated/70 backdrop-blur-md border-r border-tn-border flex flex-col font-mono select-none">
       {/* panel header */}
       <div className="px-4 py-2.5 text-[11px] tracking-wider text-tn-muted uppercase">Explorer</div>
 
