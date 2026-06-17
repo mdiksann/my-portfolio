@@ -42,7 +42,7 @@ const IDE = ({ data }) => {
             </div>
 
             {/* Mobile: overlay */}
-            <div className="md:hidden absolute inset-0 z-30 flex">
+            <div className="md:hidden absolute inset-y-0 right-0 left-12 z-30 flex">
               <Sidebar activeFile={activeFile} onSelect={selectFile} />
               <div className="flex-1 bg-black/50 backdrop-blur-sm" onClick={() => setSidebarOpen(false)} aria-hidden="true" />
             </div>
